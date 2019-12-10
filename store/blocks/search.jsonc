@@ -1,6 +1,8 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": [
+      "search-result-layout"
+    ]
   },
   "search-result-layout": {
     "blocks": [
@@ -10,6 +12,9 @@
     ]
  },
   "search-result-layout.desktop": {
+    "props": {
+      "pagination": "show-more"
+    },
     "blocks":[
       "breadcrumb.search",
       "search-title.v2",
