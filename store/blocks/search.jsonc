@@ -15,7 +15,7 @@
     "props": {
       "pagination": "show-more"
     },
-    "blocks":[
+    "children":[
       "breadcrumb.search",
       "search-title.v2",
       "total-products.v2",
