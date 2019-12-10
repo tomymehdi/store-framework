@@ -10,11 +10,6 @@
     ]
  },
   "search-result-layout.desktop": {
-    "blocks": [
-      "search-fetch-more"
-    ]
-  },
-  "search-fetch-more": {
     "blocks":[
       "breadcrumb.search",
       "search-title.v2",
