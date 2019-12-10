@@ -2,7 +2,6 @@
   "store.search": {
     "blocks": [
       "breadcrumb.search",
-      "search-title.v2",
       "search-result-layout"
     ]
   },
@@ -18,6 +17,7 @@
       "pagination": "show-more"
     },
     "blocks":[
+      "search-title.v2",
       "total-products.v2",
       "order-by.v2",
       "search-fetch-previous",
