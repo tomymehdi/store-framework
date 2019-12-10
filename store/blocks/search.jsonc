@@ -5,9 +5,6 @@
     ]
   },
   "search-result-layout": {
-    "props": {
-      "pagination": "show-more"
-    },
     "blocks": [
        "search-result-layout.desktop",
        "search-result-layout.mobile",
@@ -15,7 +12,22 @@
     ]
  },
   "search-result-layout.desktop": {
+    "props": {
+      "pagination": "show-more"
+    },
     "blocks":[
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
+    ]
+  },
+  "search-result": {
+    "blocks": [
       "breadcrumb.search",
       "search-title.v2",
       "total-products.v2",
