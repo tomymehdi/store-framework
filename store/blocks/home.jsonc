@@ -4,8 +4,7 @@
       "rich-text",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row",
-      "flex-layout.col"
+      "flex-layout.row"
     ]
   },
   "rich-text": {
@@ -46,7 +45,7 @@
   "flex-layout.row":{
     "children": [
       "info-card#rethink",
-      "flex-layout.col#images"
+      "flex-layout.col"
     ]
   },
 
@@ -56,7 +55,7 @@
     ]
   },
 
-  "flex-layout.col#images": {
+  "flex-layout.col": {
     "children":[
       "image#electronics",
       "image#major-appliance"
