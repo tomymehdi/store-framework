@@ -13,17 +13,34 @@
     ]
  },
   "search-result-layout.desktop": {
-    "props": {
-      "pagination": "show-more"
-    },
     "blocks":[
-      "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
-      "search-fetch-more"
+      "search-result"
     ]
-  }
+  },
+
+  "search-result": {
+    "blocks": [
+      "filter-navigator.v2",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products",
+      "search-title"
+    ],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": []
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
 }
