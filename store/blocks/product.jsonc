@@ -21,7 +21,7 @@
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   },
   "flex-layout.col#right": {
